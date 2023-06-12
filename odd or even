@@ -1,0 +1,25 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package finallexamm2023;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author y111e
+ */
+public class evenorodd {
+    public static void main(String[] args){
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("enter a number:");
+        int number = scanner.nextInt();
+        if (number % 2 == 0){
+            System.out.println("the number is even");}
+            else{
+                    System.out.println("the numnber is odd");
+                    }
+        }
+        
+    }
